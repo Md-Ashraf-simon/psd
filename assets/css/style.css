@@ -1,0 +1,284 @@
+* {
+	box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.conteinar {
+	max-width: 80%;
+	margin:0 auto;
+}
+img {
+	max-width: 100%;
+}
+button {
+	cursor: pointer;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.row--2 {
+	flex-basis: 16.66%;
+}
+.row--3 {
+	flex-basis:24.99%; 
+}
+.row--4 {
+	flex-basis:33.32%;
+}
+.row--6 {
+	flex-basis:49.98%;
+}
+.row--8 {
+	flex-basis:66.64%;
+}
+.row--9 {
+	flex-basis:74.97%;
+}
+.row--10 {
+	flex-basis:83.3%;
+}
+.header-part {
+	border-bottom: 1px solid #402f3c;
+}
+.top-header {
+	background-size: cover;
+}
+.logo {
+	padding: 21px 221px;
+}
+.logo p {
+	display: inline;
+    font-size: 10px;
+    color: #ffffff;
+}
+.main-menu ul {
+	display: flex;
+}
+.main-menu ul li {
+	padding: 12px;
+	list-style: none;
+}
+.main-menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	transition: .7s;
+}
+.main-menu ul li:hover a {
+	padding-bottom: 25px;
+	border-bottom: 2px solid #ffffff;
+	transition: .7s;
+}
+.search p   {
+	background-color: #ffffff;
+    width: 62%;
+    border-radius: 20px;
+    padding: 6px 6px;
+    color: #d3d3d3;
+}
+.search  i {
+	padding-left: 30px;
+}
+.header-text {
+    padding: 200px;
+} 
+.header-text h1 {
+	color: #ffff;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    font-weight: 100;
+}
+.header-text span {
+    padding-left: 100px;
+}
+.header-text button {
+     background-color: #6709a7;
+    padding: 22px 74px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.header-text button:hover {
+	background-color: #8824cd;
+	transition: .7s;
+}
+.header-text p {
+    color: #e7e1e2;
+    margin: 11px;
+    font-size: 14px;
+    padding-left: 222px;
+}
+.all-text {
+	color: #fff;
+	padding: 100px;
+}
+.btm-text h4 {
+	font-family: 'Open Sans', sans-serif;
+}
+.btm-text p {
+	
+	font-family:'Open Sans'; 
+}
+.section-2 {
+	padding: 100px;
+    background-size: cover;
+}
+.overley-txt {
+	text-align: center;
+	 color: #f1d5da;
+	 position: relative;
+	 z-index: 1;
+}
+.overlay {
+	position: relative;
+}		
+.overlay:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #b94256;
+	opacity: .6;
+}
+.overley-txt h1 {
+	font-size: 35px;
+	font-family:'Open Sans',sans-serif; 
+}
+.overley-txt button {
+	padding: 19px 90px;
+    border-radius: 30px;
+    border: none;
+    color: #c45369;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .8s;
+}
+.overley-txt button:hover {
+    background-color: #b94256;
+    color: #fff;
+    transition: .8s;
+}
+.writting  {
+    padding: 70px;
+	color: #3a4d60;
+}
+.writting h4 {
+    font-family:'Open Sans',sans-serif;
+}
+.section-4 {
+	background-size: cover;
+	text-align: center;
+
+}
+.section-4-txt {
+	 padding: 60px;
+	 position: relative;
+}
+.section-4-txt h1 {
+	color: #bcabc2;
+    font-size: 40px;
+    font-family:'Open Sans',sans-serif;
+    font-weight: 100;
+    margin: 10px
+
+}
+.section-4-txt p {
+	color: #ffffff;
+	font-family: 'Open Sans';
+	font-size: 20px;
+}
+.section-4-txt button {
+	padding: 20px 65px;
+    border-radius: 30px;
+    border: none;
+    background-color: #8824cd;
+    color: #fff;
+    font-weight: bold;
+    transition: .8s;
+}
+.section-4-txt button:hover {
+	background-color: #ffffff;
+	color: #5b2f6b;
+	transition: .8s;
+}
+
+.overley-2 {
+	position: relative;
+}
+.overley-2::before {
+	position: absolute;
+	content: '';
+	top: 20%;
+	left: 0px;
+	width: 100%;
+	height:80%;
+	background-color: #4c1f5c;
+	opacity: .6;
+}
+.section-5 {
+	background-size: cover;
+}
+.FAQ {
+   padding-top: 180px;
+   padding-bottom: 50px;
+}
+.FAQ button {
+ 	margin: 11px 0px;
+    padding: 10px 28px;
+   background: transparent;
+   border: 1px solid #ffffff;
+   color: #fff;
+   transition: .6s;
+   text-transform: uppercase;
+   border-radius: 20px;
+}
+.FAQ button:hover {
+   transform: scale(1.1);
+   border: 1px solid cyan;
+   background-color: cyan;
+   color: black;
+}
+.FAQ  {
+	color: #fff;
+}
+.FAQ h1 {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 100;
+    margin: 2px;
+}
+.last-img-txt  {
+    color: #3a4d60;
+    max-width: 57%;
+    margin-left: auto;
+    padding: 50px;
+}
+.last-img-txt  h4 {
+    font-family:'Open Sans',sans-serif;
+}
+.all-items {
+	padding: 60px 40px;
+	margin: 0px;
+}
+.all-items h4 {
+	 font-family:'Open Sans',sans-serif;
+}
+.all-items p {
+	width: 26%;
+}
+.all-items a {
+	color: #fff;
+}
+.last-text p {
+    padding: 49px 11px 100px 38px;
+    margin: 0px;
+}
